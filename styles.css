@@ -1,0 +1,38 @@
+* {
+}
+
+body {
+  width: 1800px;
+  height: 4271px;
+
+  background: #ffffff;
+}
+
+.page {
+  width: 1800px;
+  height: 4271px;
+
+  background: #ffffff;
+}
+
+/* Развертка */
+
+.grid {
+  width: 1173px;
+  height: 4271px;
+}
+
+.Combined_shape {
+  width: 1113px;
+  height: 4271px;
+}
+
+.shape {
+  width: 65px;
+  height: 4271px;
+}
+
+.container {
+  width: 1173px;
+  height: 4271px;
+}

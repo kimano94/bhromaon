@@ -1,38 +1,92 @@
 * {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   width: 1800px;
   height: 4271px;
-
-  background: #ffffff;
 }
 
 .page {
   width: 1800px;
-  height: 4271px;
+  height: inherit;
 
+  color: white;
   background: #ffffff;
 }
 
-/* Развертка */
+/* Размеры */
 
 .grid {
   width: 1173px;
-  height: 4271px;
+  height: inherit;
+  margin: 0 auto;
+
+  /* border: 1px solid black; */
 }
 
 .Combined_shape {
-  width: 1113px;
-  height: 4271px;
+  width: 1110px;
+  height: inherit;
+  margin: 0 auto;
+
+  display: flex;
+  /* border: 1px solid black; */
 }
 
 .shape {
   width: 65px;
-  height: 4271px;
+  height: inherit;
+  /* border: 1px solid black; */
 }
 
 .container {
   width: 1173px;
-  height: 4271px;
+  height: inherit;
+}
+
+header {
+  width: 1770px;
+  height: 820px;
+}
+
+/* Обнуление отступов */
+.form--group {
+  margin: 0;
+  padding: 0;
+}
+
+/* Отступы и примечания */
+.clm {
+  margin: 0 auto;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+/* Размещение */
+
+ul li {
+  display: inline;
+}
+
+.logo {
+  display: flex;
+}
+
+/* Центральное размещение */
+/* .page--style {
+  margin: auto;
+} */
+
+/* Видимость */
+.grid-style {
+  display: none;
+}
+
+/* Стили */
+.header--bg {
+  width: 1770px;
+  height: 820px;
+  background: url(img/fon.png) no-repeat center/100%;
 }
